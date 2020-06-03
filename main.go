@@ -131,6 +131,8 @@ func main() {
 	if err != nil {
 		logFatal(err)
 	}
+
+	os.Exit(ret)
 }
 
 func xrep(f io.Reader, filename string) {
